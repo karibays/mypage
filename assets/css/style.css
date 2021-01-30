@@ -1,0 +1,163 @@
+*{
+  margin: 0;
+}
+
+div{
+  margin:0;
+}
+
+hr{
+  width:40%;
+}
+
+ul{
+  display:table;
+  margin:auto;
+}
+li{
+  display:table-cell;
+  text-align:center;
+}
+a{
+  display:table-cell;
+  valign:bottom;
+}
+
+.main{
+  margin: 0;
+}
+
+.contentPartOne{
+  background-image: url('rBzZcqgrhK4.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 1000px;
+}
+
+.menubar{
+  width: 90%;
+  height: 50px;
+}
+
+ul.menu li {
+  float:right;
+  padding-left: 50px;
+  color:white;
+  list-style-type: none;
+  text-decoration: none;
+  margin-top: 10px;
+  transition: 1s;
+}
+
+ul.menu li:hover {
+  transform: scale(1.2);
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+}
+
+.banner{
+  margin-top: 160px;
+  height: 350px;
+  width: 100%;
+  text-align: center;
+}
+
+.references{
+  height: 20px;
+  width: 95%;
+}
+
+ul.messengers li {
+  padding-left: 20px;
+  float:right;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.messengers img {
+  transition: 1s;
+}
+
+.messengers img:hover {
+  transform: scale(1.4);
+}
+
+.contentPartTwo{
+  height: 1000px;
+  position: relative;
+  bottom:167px;
+}
+
+.contentAbout{
+  background-image: url('l.jpg');
+  background-position: center left;
+  background-size: 20%;
+  background-repeat: no-repeat;
+  padding-top: 100px;
+  height:450px;
+  width: 100%;
+  background-color: #383838;
+  display:block;
+  justify-content: center;
+}
+
+.information{
+  height: 1850px;
+  color:black;
+}
+
+.information h1{
+  margin-right: 150px;
+}
+.information hr{
+  width:100%;
+}
+
+.skills{
+  height: 30px;
+  margin-top: 50px;
+  width:100%;
+  background-color: #313131;
+}
+
+.notskills{
+  position: relative;
+  float: right;
+  height: 30px;
+  background-color: #CCCCCC;
+}
+
+ .skill-C{
+  width: 80%;
+}
+
+.skill-Java{
+  width: 90%;
+}
+
+.skill-SQL{
+  width: 70%;
+}
+
+.skill-Web{
+  width: 50%;
+}
+
+ .contact{
+  height: 300px;
+  padding: 50px;
+  background-color: black;
+}
+
+.contact input{
+  padding:6px;
+  font-size: 20px;
+}
+
+#enter{
+  border-radius: 20%;
+  font-family: inherit;
+}
